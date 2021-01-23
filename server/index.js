@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
 
 app.use('/posts', postRoutes);
-//const CONNECTION_URL = 'mongodb://localhost:27017/MERNMeoriesDB';
+
 
 app.get('/', (req, res)=>{
     res.send('Hello to Backend of my first MERN application');
