@@ -17,7 +17,7 @@ app.use('/posts', postRoutes);
 
 
 app.get('/', (req, res)=>{
-    res.send('Hello to Backend of my first MERN application');
+    res.send('Hello to Backend');
 })
 
 const PORT = process.env.PORT || 5000;
